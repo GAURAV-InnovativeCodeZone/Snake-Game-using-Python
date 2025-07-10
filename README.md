@@ -103,6 +103,6 @@ The code is organized into several sections, each handling a specific aspect of 
   - Press the spacebar to pause the game.
   - Access the settings menu to change difficulty or toggle music.
 
-# ▶ Notes ◀
+# ▶ Note ◀
    - If sound files are missing, the game will still run (with warnings).
    - The high score is saved in high_score.json.
