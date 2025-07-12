@@ -13,6 +13,21 @@ This repository contains a classic Snake Game implemented in Python using the Py
   * Dependencies
   * Future Improvements
 
+## 📂 Project Structure
+
+```
+/Login-and-Signup-form-using-HTML-CSS-JS
+│
+├── main.py               # Main Python file containing both forms
+├── high_score.json       # CSS for layout, colors, and responsiveness
+├── button_click.wav      # JavaScript for form switching and validation
+|__ game_over.wav         # game over sound when snake goes out of boundary
+|__ eat_sound.wav         # eating sound when snake eat food
+|__ background_image.jpg  # background image file
+|__ background_music.mp3  # play music on background
+└── README.md           # Project documentation (this file)
+```
+
 ## Game Overview ##
 The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, eating food to grow longer. The game ends if the snake collides with the walls or itself. The goal is to achieve the highest possible score by eating as much food as possible.
 
@@ -85,6 +100,32 @@ The code is organized into several sections, each handling a specific aspect of 
 + Install Dependencies:
   - Ensure Python 3.x is installed.
   - Install Pygame using pip : pip install pygame
+ 
+---
+
+## 📸 Screenshots
+
+### Starting Interface (option to start game)
+
+![image1](Project_Screenshot/entry_image.png)
+
+### Playground Interfacem (we can pause game by pressing spacebar)
+
+![image2](Project_Screenshot/play_image.png)
+
+### Resuming Interface (option to resume or quit the game)
+
+![image3](Project_Screenshot/resume_image.png)
+
+### Game Over Interface (option to play again or quit the game)
+
+![image4](Project_Screenshot/playagain_img.png)
+
+### Menu or Setting Interface (option to change difficulty mode or music on/off)
+
+![image5](Project_Screenshot/menu_image.png)
+
+---
 
 # Download the Code:
   - Clone this repository or download the main.py file.
